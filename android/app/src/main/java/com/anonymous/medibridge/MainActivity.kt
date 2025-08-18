@@ -1,4 +1,4 @@
-package com.anonymous.dabikyeo
+package com.anonymous.medibridge
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

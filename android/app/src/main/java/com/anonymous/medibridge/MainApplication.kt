@@ -1,4 +1,4 @@
-package com.anonymous.dabikyeo
+package com.anonymous.medibridge
 
 import android.app.Application
 import android.content.res.Configuration

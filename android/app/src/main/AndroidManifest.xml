@@ -26,6 +26,8 @@
         <category android:name="android.intent.category.BROWSABLE"/>
         <data android:scheme="dabikyeo"/>
         <data android:scheme="exp+dabikyeo"/>
+        <data android:scheme="메디브릿지"/>
+        <data android:scheme="exp+medibridge"/>
       </intent-filter>
     </activity>
   </application>

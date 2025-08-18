@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.dabikyeo'
+    namespace 'com.anonymous.medibridge'
     defaultConfig {
-        applicationId 'com.anonymous.dabikyeo'
+        applicationId 'com.anonymous.medibridge'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
