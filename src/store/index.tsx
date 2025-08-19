@@ -3,14 +3,17 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
 import devToolsEnhancer from "redux-devtools-expo-dev-plugin";
 import { persistReducer, persistStore } from "redux-persist";
+import { voiceSlice } from "./slices/voiceSlice";
 
-const rootReducer = combineReducers({});
+const rootReducer = combineReducers({
+  voiceSlice: voiceSlice.reducer,
+});
 
 const persistConfig = {
   key: "root",
   storage: AsyncStorage,
   whitelist: [],
-  blackList: [],
+  blackList: ["voiceSlice"],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
