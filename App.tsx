@@ -1,7 +1,8 @@
 import * as Linking from "expo-linking";
 import React from "react";
 import Providers from "./providers";
-import StackNavigator from "./src/navigation/StackNavigator";
+// import StackNavigator from "./src/navigation/StackNavigator";
+import DrawerMenu from "./src/screens/DrawerMenu";
 
 export default function App() {
   const prefix = Linking.createURL("/");
@@ -9,7 +10,8 @@ export default function App() {
 
   return (
     <Providers>
-      <StackNavigator />
+      <DrawerMenu />
+      {/* <StackNavigator /> */}
     </Providers>
   );
 }
